@@ -8,11 +8,11 @@ if (fs.existsSync('config.env')) {
 }
 
 const API = "https://api-aswin-sparky.koyeb.app";
-const HANDLERS = process.env.HANDLER || "^";
+const HANDLERS = process.env.HANDLER || ".";
 const SESSION_ID = process.env.SESSION_ID || "";
-const SUDO = process.env.SUDO || '917012984396';
+const SUDO = process.env.SUDO || '03130510486';
 const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "true";
-const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "true";
+const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "false";
 const BOT_INFO = process.env.BOT_INFO || "X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg";
 const URL = process.env.URL || "https://www.instagram.com/imspxxky";
 const AUDIO_DATA = process.env.AUDIO_DATA || "X BOT MD;ASWIN SPARKY;https://i.imgur.com/fVCRCYG.jpeg";
